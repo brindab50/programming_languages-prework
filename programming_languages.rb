@@ -11,10 +11,10 @@ def reformat_languages(languages)
       else
       new_hash[language] = {type: value, style: [] << style}
      
-       # binding.pry
-    end   
- end
+       
+      end   
+    end
   end
-  end
+end
   new_hash
 end
