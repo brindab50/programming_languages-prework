@@ -12,7 +12,7 @@ def reformat_languages(languages)
       new_hash[language] = {type: value, style: [] << style} language_data
      
        # binding.pry
-       
+    end   
  end
   end
   end
